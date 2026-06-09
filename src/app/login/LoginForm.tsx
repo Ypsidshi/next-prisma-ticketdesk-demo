@@ -21,7 +21,7 @@ export function LoginForm() {
           type="email"
           autoComplete="username"
           required
-          className="w-full rounded-md border border-zinc-200 px-3 py-2 text-sm outline-none focus:border-zinc-400"
+          className="w-full rounded-md border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-400"
         />
       </div>
       <div className="space-y-1">
@@ -34,7 +34,7 @@ export function LoginForm() {
           type="password"
           autoComplete="current-password"
           required
-          className="w-full rounded-md border border-zinc-200 px-3 py-2 text-sm outline-none focus:border-zinc-400"
+          className="w-full rounded-md border border-zinc-200 bg-white px-3 py-2 text-sm text-zinc-900 outline-none focus:border-zinc-400"
         />
       </div>
       <button
